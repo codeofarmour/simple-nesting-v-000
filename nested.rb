@@ -9,11 +9,11 @@ def hopper
         },
         alan_kay: {
           known_for: "Object Orientation",
-          languages => ["Smalltalk", "LISP"]
+          languages: %w[Smalltalk LISP]
         },
-        :dennis_ritchie => {
-          :known_for => "Unix",
-          :languages => ["C"]
+        dennis_ritchie: {
+          known_for: "Unix",
+          languages: ["C"]
         }
      }
 
