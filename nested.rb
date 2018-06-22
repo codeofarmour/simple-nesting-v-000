@@ -4,19 +4,18 @@ def hopper
 	programmer_hash = 
  		{
         grace_hopper: {
-          known_for: "COBOL",
+          known_for: 'COBOL',
           languages: %w[COBOL FORTRAN]
         },
         alan_kay: {
-          known_for: "Object Orientation",
+          known_for: 'Object Orientation',
           languages: %w[Smalltalk LISP]
         },
         dennis_ritchie: {
-          known_for: "Unix",
-          languages: ["C"]
+          known_for: 'Unix',
+          languages: ['C']
         }
      }
-
 
 end
 
